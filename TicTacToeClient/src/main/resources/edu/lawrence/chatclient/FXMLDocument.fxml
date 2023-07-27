@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="255.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.lawrence.chatclient.FXMLDocumentController">
+   <children>
+      <HBox prefHeight="60.0" prefWidth="600.0">
+         <children>
+            <Label text="You are player X">
+               <padding>
+                  <Insets left="15.0" top="20.0" />
+               </padding>
+            </Label>
+            <Label text="Other player's turn">
+               <HBox.margin>
+                  <Insets left="350.0" top="20.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="65.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="button1" mnemonicParsing="false" onAction="#ButtonOneClick" prefHeight="26.0" prefWidth="26.0">
+               <HBox.margin>
+                  <Insets left="45.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="button2" layoutX="55.0" layoutY="30.0" mnemonicParsing="false" onAction="#ButtonTwoClick" prefHeight="26.0" prefWidth="26.0">
+               <HBox.margin>
+                  <Insets left="220.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="button3" layoutX="81.0" layoutY="10.0" mnemonicParsing="false" onAction="#ButtonThreeClick" prefHeight="26.0" prefWidth="26.0">
+               <HBox.margin>
+                  <Insets left="170.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="65.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="button4" mnemonicParsing="false" onAction="#ButtonFourClick" prefHeight="26.0" prefWidth="26.0">
+               <HBox.margin>
+                  <Insets left="45.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="button5" mnemonicParsing="false" onAction="#ButtonFiveClick" prefHeight="26.0" prefWidth="26.0">
+               <HBox.margin>
+                  <Insets left="220.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="button6" mnemonicParsing="false" onAction="#ButtonSixClick" prefHeight="26.0" prefWidth="26.0">
+               <HBox.margin>
+                  <Insets left="170.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="65.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="button7" mnemonicParsing="false" onAction="#ButtonSevenClick" prefHeight="26.0" prefWidth="26.0">
+               <HBox.margin>
+                  <Insets left="45.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="button8" mnemonicParsing="false" onAction="#ButtonEightClick" prefHeight="26.0" prefWidth="26.0">
+               <HBox.margin>
+                  <Insets left="220.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="button9" mnemonicParsing="false" onAction="#ButtonNineClick" prefHeight="26.0" prefWidth="26.0">
+               <HBox.margin>
+                  <Insets left="170.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
